@@ -1,0 +1,289 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>RUCIR at NTCIR-14 STC-3 Task · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="NoteECM.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Emotional Conversation Generation
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="NoteECM.html">
+            
+                <a href="NoteECM.html">
+            
+                    
+                    Emotional Chatting Machine: Emotional Conversation Generation with Internal and External Memory
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.2" data-path="NoteRUCIR.html">
+            
+                <a href="NoteRUCIR.html">
+            
+                    
+                    RUCIR at NTCIR-14 STC-3 Task
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >RUCIR at NTCIR-14 STC-3 Task</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x8BBA;&#x6587;&#x7B14;&#x8BB0;&#x300A;rucir-at-ntcir-14-stc-3-task&#x300B;">&#x8BBA;&#x6587;&#x7B14;&#x8BB0;&#x300A;RUCIR at NTCIR-14 STC-3 Task&#x300B;</h1>
+<p>&#x8FD9;&#x7BC7;&#x8BBA;&#x6587;&#x4ECB;&#x7ECD;&#x4E86;&#x5728;NTCIR-14 STC-3 &#x4E2D;&#x6587;&#x60C5;&#x611F;&#x5BF9;&#x8BDD;&#x751F;&#x6210;&#x4EFB;&#x52A1;&#x4E2D;&#x53D6;&#x5F97;&#x6700;&#x4F73;&#x6027;&#x80FD;&#x7684;&#x6A21;&#x578B;&#x3002;</p>
+<h2 id="&#x4ECB;&#x7ECD;">&#x4ECB;&#x7ECD;</h2>
+<p>&#x6A21;&#x578B;&#x7531;&#x56DB;&#x90E8;&#x5206;&#x7EC4;&#x6210;&#xFF1A;&#x57FA;&#x4E8E;&#x89C4;&#x5219;&#x7684;&#x6A21;&#x677F;&#xFF0C;&#x591A;&#x4E2A;&#x5FAE;&#x8C03;&#x4F18;&#x7684;seq2seq&#x751F;&#x6210;&#x6A21;&#x578B;&#xFF0C;&#x5355;&#x4E00;&#x7684;&#x60C5;&#x7EEA;&#x611F;&#x77E5;seq2seq&#x6A21;&#x578B;&#x548C;&#x91CD;&#x6392;&#x5E8F;&#x6A21;&#x578B;&#x3002;</p>
+<h2 id="&#x7CFB;&#x7EDF;&#x67B6;&#x6784;">&#x7CFB;&#x7EDF;&#x67B6;&#x6784;</h2>
+<h3 id="&#x6570;&#x636E;&#x9884;&#x5904;&#x7406;">&#x6570;&#x636E;&#x9884;&#x5904;&#x7406;</h3>
+<p>&#x8FC7;&#x6EE4;&#x6389;&#x592A;&#x77ED;&#x548C;&#x975E;&#x4E2D;&#x6587;&#x7684;&#x5BF9;&#x8BDD;&#xFF0C;&#x79FB;&#x9664;&#x65E0;&#x610F;&#x4E49;&#x7684;&#x548C;&#x91CD;&#x590D;&#x6B21;&#x6570;&#x592A;&#x591A;&#x7684;&#x8868;&#x8FBE;&#xFF0C;&#x7B80;&#x5316;&#x91CD;&#x590D;&#x5E8F;&#x5217;&#x3002;</p>
+<h3 id="&#x57FA;&#x4E8E;&#x89C4;&#x5219;&#x7684;&#x6A21;&#x677F;">&#x57FA;&#x4E8E;&#x89C4;&#x5219;&#x7684;&#x6A21;&#x677F;</h3>
+<p>&#x62BD;&#x53D6;&#x5B9E;&#x4F53;&#x548C;&#x5173;&#x952E;&#x8BCD;&#xFF0C;&#x4EBA;&#x5DE5;&#x5B9A;&#x4E49;&#x751F;&#x6210;&#x6A21;&#x677F;&#x4F5C;&#x4E3A;&#x7B2C;&#x4E00;&#x56DE;&#x590D;&#x9009;&#x62E9;&#x3002;</p>
+<h3 id="multi-seq2seq">Multi-seq2seq</h3>
+<p> &#x5148;&#x4F7F;&#x7528;&#x5168;&#x90E8;&#x6570;&#x636E;&#x8BAD;&#x7EC3;&#x6A21;&#x578B;&#xFF0C;&#x7136;&#x540E;&#x5728;&#x516D;&#x4E2A;&#x5177;&#x4F53;&#x7684;&#x60C5;&#x611F;&#x7C7B;&#x522B;&#x6570;&#x636E;&#x4E0A;&#x8C03;&#x4F18;&#xFF0C;&#x5F97;&#x5230;&#x516D;&#x4E2A;&#x6A21;&#x578B;&#xFF0C;&#x7528;&#x6765;&#x751F;&#x6210;&#x5019;&#x9009;&#x56DE;&#x590D;&#x3002;</p>
+<h3 id="emotion-aware-seq2seq">Emotion-aware seq2seq</h3>
+<p>seq2seq + Attention + <strong>Copy mechanism</strong> + emotion category embedding</p>
+<h3 id="&#x91CD;&#x6392;&#x5E8F;">&#x91CD;&#x6392;&#x5E8F;</h3>
+<p>&#x5EA6;&#x91CF;&#x56DE;&#x590D;&#x7684;&#x60C5;&#x611F;&#x5F97;&#x5206;&#x548C;&#x8BCD;&#x9879;&#x76F8;&#x4F3C;&#x5EA6;&#xFF0C;&#x4F5C;&#x52A0;&#x6743;&#x6C42;&#x548C;&#xFF0C;&#x9009;&#x51FA;&#x6700;&#x4F18;&#x56DE;&#x590D;</p>
+<ul>
+<li>&#x60C5;&#x611F;&#x5F97;&#x5206; = &#x60C5;&#x611F;&#x8BCD;&#x6743;&#x91CD;(&#x60C5;&#x611F;&#x8BCD;&#x5178;&#x548C;&#x8BAD;&#x7EC3;&#x6570;&#x636E;) <em> <strong>&#x7A0B;&#x5EA6;&#x8BCD;&#x5F97;&#x5206;(&#x5F88;&#x3001;&#x4E00;&#x70B9;&#x3001;&#x6CA1;&#x6709;&#x2026;&#x2026;)</strong> </em> &#x60C5;&#x611F;&#x8BCD;&#x7C7B;&#x522B;&#x5F97;&#x5206;(0,1)</li>
+<li>&#x8BCD;&#x9879;&#x76F8;&#x4F3C;&#x5EA6; = &#x56DE;&#x590D;&#x4E0E;&#x63D0;&#x95EE;&#x7684;&#x5171;&#x73B0;&#x8BCD;&#x6570;&#x91CF;&#xFF0C;&#x4EE5;&#x8BA1;&#x7B97;&#x4E24;&#x8005;&#x76F8;&#x4F3C;&#x6027;&#xFF0C;&#x9009;&#x51FA;&#x66F4;&#x4E3B;&#x9898;&#x76F8;&#x5173;&#x7684;&#x56DE;&#x590D;&#x3002;</li>
+</ul>
+<h2 id="&#x603B;&#x7ED3;">&#x603B;&#x7ED3;</h2>
+<p>&#x8BBA;&#x6587;&#x53C2;&#x4E0E;&#x7684;&#x662F;&#x8BC4;&#x6D4B;&#x4EFB;&#x52A1;&#xFF0C;&#x601D;&#x8DEF;&#x5F88;&#x6E05;&#x6670;&#xFF1A;&#x6570;&#x636E;&#x9884;&#x5904;&#x7406;&#xFF0C;&#x591A;&#x4E2A;&#x6A21;&#x578B;&#x751F;&#x6210;&#x5019;&#x9009;&#xFF0C;&#x6253;&#x5206;&#x6392;&#x5E8F;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="NoteECM.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Emotional Chatting Machine: Emotional Conversation Generation with Internal and External Memory">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"RUCIR at NTCIR-14 STC-3 Task","level":"1.2.2","depth":2,"previous":{"title":"Emotional Chatting Machine: Emotional Conversation Generation with Internal and External Memory","level":"1.2.1","depth":2,"path":"content/ECG/NoteECM.md","ref":"content/ECG/NoteECM.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"content/ECG/NoteRUCIR.md","mtime":"2019-09-19T05:46:09.105Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-19T07:32:17.600Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
